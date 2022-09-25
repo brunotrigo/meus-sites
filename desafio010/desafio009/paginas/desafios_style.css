@@ -1,0 +1,117 @@
+@charset "UTf-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Permanent+Marker&display=swap');
+
+:root{
+    --fontesepecial: 'Permanent Marker', cursive;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #000000;
+}
+header{
+    background-image:linear-gradient(to bottom, #772525,#462c2c);
+    height: 150px;
+}
+header h1{
+    padding: 18px 38px 38px 58px;
+    text-align: center;
+    font-family: var(--fontesepecial);
+    font-size: 3em;
+    color:  #ffffff;
+}
+nav{
+    background-color: #462c2c;
+    padding-bottom: 5px;
+    font-family: var(--fontesepecial);
+    font-size: 1.3em;
+    box-shadow: 0px 3.5px 2px 2px rgba(0, 0, 0, 0.336);
+}
+
+nav a {
+padding: 0px 35px;
+text-decoration: none;
+color:  #ffffff; 
+}
+nav a:hover{
+    background-color: #332424;
+    border-radius: 10px;
+    text-decoration: underline;
+    color:  #692525;
+    padding-bottom: 2px;
+}
+
+
+main{
+    background-color:#4D4D4D;
+    min-width: 200px;
+    max-width: 900px;
+    margin: 0px auto 105px auto;
+    padding-bottom: 45px;
+    box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.384);
+    border-radius: 10px;
+}
+main p {
+    font-family: var(--fontesepecial);
+    font-size: 1.2em;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.966);  
+}
+
+
+footer{
+    background-color:rgba(160, 160, 160, 0.384);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+h1,h2.h3{
+    font-family: var(--fontesepecial);
+}
+h1{
+    font: 100; color: rgb(0, 0, 0);
+    text-align: center;
+    padding-bottom: 30px;
+    text-shadow: 5px 3px 11px rgba(5, 5, 5, 0.897);
+}
+div#video{
+    position: relative;
+    background-color: #692525;
+    margin: 0px 0px 12px 0px;
+    padding: 20px;
+    padding-bottom: 54.8%;
+}
+iframe{
+    position: absolute;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.616);
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+a{
+    text-decoration: none;
+    font-size: 1.4em;
+    text-align: center;
+    color: #551515;
+    font-weight: bolder;
+    padding: 15px;
+}
+a:hover{
+    text-decoration: underline;
+}
+article a{
+    display: block;
+    margin: 0px 36%;
+}
+
+article h3::after {
+    content: "\00A0\1F519";
+}
+article h3{
+   text-align: center;
+    
+   
+}

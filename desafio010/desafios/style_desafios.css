@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Ink&family=Dancing+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+:root{
+    
+    --titulo1:'Bebas Neue', cursive;
+    --titulo2: 'Blaka Ink', cursive;
+    --titulo3: 'Dancing Script', cursive;
+    
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+   
+   background-image: linear-gradient(to bottom, rgba(88, 88, 88, 0.979), rgba(0, 0, 0, 0.486) );
+    
+
+}
+body p {
+    text-align: justify;
+}
+header{
+    background-image: linear-gradient(to bottom,rgba(146, 52, 52, 0.685), rgba(184, 22, 22, 0.856));
+    padding: 15px;
+    
+}
+header > h1{
+    font-family: var(--titulo3);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 4em;
+    margin: auto;
+    padding: 15px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.596);
+} 
+header p {
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.3em;
+}
+nav{
+    background-image: linear-gradient(to bottom, rgba(34, 31, 31, 0.623) ,  rgb(88, 88, 88));
+    padding: 8px;
+    box-shadow: 0px 3px 4px rgb(59, 59, 59);
+    
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 2px 8px 2px 8px;
+    font-size: 1.2em;
+    letter-spacing: 0.9px;
+    background-color:rgba(255, 255, 255, 0.315);
+    border-radius: 5px;
+    
+}
+nav a:hover{
+    background-color:rgba(165, 42, 42, 0.315);
+}
+main{
+    background-color:  rgb(88, 88, 88);
+    background-color: white;
+    margin: 15px auto 25px auto;
+    height: 800px;
+    min-width: 200px;
+    max-width: 800px;
+    padding:15px;
+    border-radius: 45px 0px;
+    box-shadow: 1px 1px 8px 3px  rgba(0, 0, 0, 0.233) ;
+}
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.3em;
+    padding: 10px 0px 5px 10px;
+    text-indent: 1em;
+}
+main a {
+    background-color: rgba(31, 31, 31, 0.39);
+    padding: 2px 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    
+}
+main a:hover {
+    text-decoration: underline;
+
+
+}
+main a::after{
+    content: '\00a0\1F517';
+}
+
+.titulo{
+    text-align: center;
+    font-size: 2.3em;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    
+    
+}
+footer p {
+    text-align:center;
+
+}
+h1,h2,h3{
+    letter-spacing: 1.1px;
+    padding: 5px 0px 15px 0px;
+   
+}
+h3{
+    background-image:linear-gradient(to right,rgba(212, 34, 34, 0.678),rgba(0, 0, 0, 0.164),rgba(0, 0, 0, 0)) ;
+    border-radius: 8px;
+    padding: 10px 8px 1px 8px;
+    font-size: 1.8em;
+    font-family: var(--titulo1);
+}
+article{
+    padding: 15px;
+    
+}
